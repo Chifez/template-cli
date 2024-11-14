@@ -2,21 +2,34 @@
   "name": "clitoo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-template-app": "bin/index.js"
+    "starter-template-create": "./bin/index.js"
   },
   "type": "module",
-  "author": "",
-  "license": "ISC",
+  "author": "emmanuel",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "figlet": "^1.8.0",
     "inquirer": "^12.0.1",
     "ora": "^8.1.1"
-  }
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chifez/template-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/Chifez/template-cli/issues"
+  },
+  "homepage": "https://github.com/Chifez/template-cli#readme"
 }
