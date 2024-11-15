@@ -3,8 +3,8 @@ import ora from 'ora';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { copyCoursesFolder } from '../src/utils/copyCoursesFolder';
-import { copyFolderSync } from '../src/utils/copyfolder';
+import { copyCoursesFolder } from '../src/utils/copyCoursesFolder.js';
+import { copyFolderSync } from '../src/utils/copyfolder.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

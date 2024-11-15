@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import ora from 'ora';
 import path from 'path';
-import { scaffoldTemplate } from '../src/lib/scaffoldTemplate';
+import { scaffoldTemplate } from '../src/lib/scaffoldTemplate.js';
 
 const spinner = ora();
 
